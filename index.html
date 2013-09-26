@@ -1,0 +1,25 @@
+<html>
+<head>
+  <script type="application/javascript" src="./game.js"></script>
+  <script type="application/javascript" src="./moving_object.js"></script>
+  <script type="application/javascript" src="./asteroid.js"></script>
+  <script type="application/javascript" src="./util.js"></script>
+  <script type="application/javascript" src="./ship.js"></script>
+  <script type="application/javascript" src="./bullet.js"></script>
+  <script type="application/javascript" src="./keymaster.min.js"></script>
+</head>
+
+<body>
+  <script>
+    var canvas = document.createElement("canvas");
+    canvas.setAttribute("width", "500");
+    canvas.setAttribute("height", "500");
+	 canvas.setAttribute("style", "background-color:black");
+
+    var body = document.getElementsByTagName("body")[0];
+    body.appendChild(canvas);
+    new Asteroids.Game(canvas, 500, 500, 10).start(canvas);
+
+  </script>
+</body>
+</html>
