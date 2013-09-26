@@ -63,7 +63,7 @@
       }
     })
     if (collision){
-      alert("In space, no one can hear YOU LOSE")
+      alert("In space, no one can hear YOU LOSE \n(Reload to play again)")
       game.stop()
     }
   };
@@ -160,7 +160,7 @@
 	     this.checkCollisions();
 	     this.checkPosition();
 	  } else {
-		  alert("You defeated space!");
+		  alert("You defeated space!\n(Reload to play again)");
 		  this.stop();
 	  }
   }
