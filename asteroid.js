@@ -2,7 +2,7 @@
   var Asteroids = root.Asteroids = (root.Asteroids || {} );
 
   var Asteroid = Asteroids.Asteroid = function(centerX, centerY, velocity, game){
-    var COLOR = 'black'
+    var COLOR = 'transparent'
 	 var BORDER = 'green'
     var RADIUS = 20
 
