@@ -1,4 +1,4 @@
-asteroids
+Asteroids
 =========
 
-a browser-based asteroids game using javascript
+A browser-based asteroids game using javascript
