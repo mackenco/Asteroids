@@ -1,7 +1,7 @@
 Asteroids
 =========
 
-A browser-based asteroids game using JavaScript, HTML5, and Canvas. 
+The classic arcade game Asteroids built for play in the browser using JavaScript, HTML5, and Canvas. 
  * Uses inheritance to build a MovingObject class which informs movement of the ship, asteroids, and bullets
  * Uses vector algebra to calculate movement of objects on the canvas
  * Checks for collisions of objects and removes them from the canvas if so. 
